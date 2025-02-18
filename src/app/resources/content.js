@@ -6,8 +6,8 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "IT Engineer & Web Developer",
-  avatar: "/images/me.jpg",
+  role: "IT Engineer",
+  avatar: "/images/me-2.png",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Japanese", ], // optional: Leave the array empty if you don't want to display languages
 };
@@ -34,7 +34,7 @@ const social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/in/noufal-zainudin-zidane-~-a52a49174/",
+    link: "https://www.linkedin.com/in/nozazi/",
   },
   {
     name: "WhatsApp",
@@ -52,10 +52,10 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Developer and IT Engineering</>,
+  headline: <>IT Engineer</>,
   subline: (
     <>
-      I'm Noufal, a IT Engineering at <InlineCode>AL-FAKHIR</InlineCode>, where
+      I'm Noufal, a IT Engineer at <InlineCode>AL-FAKHIR</InlineCode>, where
       I craft network <br /> server for user experiences. After hours, I build
       my own projects.
     </>
@@ -84,9 +84,9 @@ const about = {
       <>
         As an open-minded person who loves to learn something new, i can adapt
         quickly and work well both individually or as part of the team. My
-        personal interests are mostly focused on JavaScript and Front End
-        Developer . However, at the moment, my interest is mostly related to IT
-        industry ( IT Network, IT Engineering ).
+        personal interests are mostly focused on Javascript framework. 
+        However, at the moment, my interest is mostly related to IT
+        industry ( Network Adminstration, IT Engineer ).
       </>
     ),
   },
@@ -97,10 +97,10 @@ const about = {
       {
         company: "SMPI Modern Al-Fakhir",
         timeframe: "Nov 2023 - Present",
-        role: "IT Engineering & Web Dev",
+        role: "Network Administrator & Web Developer",
         achievements: [
           <>
-            as an IT engineer at Modern Al-Fakhir school I created a network
+            as an IT Engineer at Modern Al-Fakhir school I created a network
             server, to manage the needs of IoT and cloud-based lessons which in
             the school do not use books but use TAB for learning media.
           </>,
